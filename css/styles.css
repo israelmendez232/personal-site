@@ -13,37 +13,36 @@ html {
     align-items: center;
     justify-content: center;
     position: relative;
-    overflow: hidden;
+    margin: 20px;
   }
   
   article {
-    padding: 40px;
-    width: 100%;
     color: #FFF;
+    max-width: 900px;
+    padding: 40px;
   }
   article header {
     position: relative;
   }
   article h1, article h2, article h3 {
-    margin: 0 0 30px 0;
+    margin: 0 0 10px 0;
   }
   article h1 {
     margin-top: 100px;
-    font-weight: 900;
-    font-size: 90px;
-
+    font-weight: 800;
+    font-size: 80px;
+/* 
     margin-top: -100px;
     position: fixed;
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 100px; */
   }
   article h2 {
-    margin-top: 100px;
-    font-weight: 100;
+    font-weight: 400;
     font-size: 40px;
   }
   article h3 {
-    font-weight: 400;
+    font-weight: 300;
     font-size: 25px;
     line-height: 35px;
   }
@@ -66,7 +65,6 @@ html {
     align-items: center;
     font-size: 25px;
     margin-right: 30px;
-    margin-bottom: 30px;
   }
   footer a:hover {
     color: #ef4e16;
